@@ -1,0 +1,17 @@
+body{
+    background-color: #db7093;
+}
+.contact{
+  font-size: 42px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+.tile{
+  width: 530px;
+  height: 530px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

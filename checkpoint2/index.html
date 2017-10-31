@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Central New Hampshire Kidney Center</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+     <div class="row">
+       <h1>Welcome to</h1>
+    </div>
+       <div class="col-md-10">
+         <div class="row">
+         <img class="img-responsive img-rounded logo" src="./lakelogo.jpg">
+         <!-- There is simply no way to change the size of an image in bootstrap while still keeping it as responsive as it was when the image was the size bootstrap "assigned" to it. This is very strange. I looked every where for a clear solution and I simply could not find it. Why is such a simple thing so difficult to do? Bootsrap helps in some cases but makes things worse in others. -->
+        </div>
+      </div>
+       <div class="row">
+          <h2>The Heart of Dialysis</h2>
+      </div>
+      <div class="row">
+          <h2>In</h2>
+      </div>
+      <div class="row">
+          <h2>The Heart of New Hampshire</h2>
+          <!-- The animation is moving in an unexpected way. I'm not sure how or why the words start out stacked on top of each other. This has to be a bootstrap thing. -->
+      </div>
+      <div class="row">
+          <div class="intro">
+            Central New Hampshire Kidney Center is a dialysis unit serving the Lakes Region and Central New Hampshire since 1990.
+            Being the only independent dialysis center in New Hampshire, we are able to maintain the highest quality of care for our patients in a family friendly atmosphere.
+            Our center prides itself on having the highest safety records, as we have a highly experienced staff, and our Nephrologist is always on site.
+            The Lakes Region area, and Lake Wiinipesaukee, are the most beautiful of resort areas, and a destination for many dialysis patients during the summer and fall seasons. CNHKC  provides care to visiting patients during their vacation.
+          </div>
+      </div>
+        <div class="row" align="center">
+          <div class="col-md-4">
+            <img class="img-responsive" id="hospital" src="./hospital.jpg">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" id="waiting" src="./waiting.jpg">
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive" id="unit" src="./unit.jpg">
+          </div>
+        </div>
+          <div class="year">
+            Anytime of the year is a good time to visit New Hampshire
+          </div>
+        </div>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 sled">
+            <img class="img-responsive slay" src="./sled.jpg">
+            <p>New Hampshire experiences each of the seasnons to the fullest. The winters are full of snow and all New Hampshirse lakes freeze over. The state has become a winter destination for many who enjoy skiing, ice fishing, snow mobiling, snow showing, and a number of other winter activities New Hampshirse has become known for.
+            </p>
+          </div>
+          <div class="col-md-5 fall">
+            <img class="img-responsive fall" src="./fall.jpg">
+            <p>Perhaps the season New Hampshirse is most famous for is Autumn. People come from far and wide to see the New Hampshire foliage which can only be described as awe inspiring.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 spring">
+            <img class="img-responsive flower" src="./spring.jpg">
+            <p>Spring time brings new life to the New Hampshire area. The states natural landscape and rural settings give New Hampshire springs a sense of real rejuvination.
+            </p>
+          </div>
+          <div class="col-md-5 summer">
+            <img class="img-responsive summer" src="./summer.jpg">
+            <p>No matter what the season, New Hampshirse has so much to offer. The summers are warm with beautiful scenary and there are many outdoor adventures to be had.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+          <div class="contact">
+            <a id="contact1" href="./contact.html">Contact us</a>
+          </div>
+          <div>
+            <a id="contact2" href="./brochure.html">Brochure</a>
+          </div>
+      </div>
+      <!-- For some reason the contact section is driving me crazy. I can't get it to respond to margin and color at the same time. To respond to color I have to set id's and to respond to margin I have to set them as class. This makes no sense whatsoever.   -->
+      <!-- Another thing, bootstrap must have some weird default settings. Before I set the contact to color white it would appear as dark blue with color change on hover. I never specified any of that so I don't where it came from. -->
+          <div><br></div>
+    <div class="container-fluid">
+    <div class="col-md-6 message">
+     <div id="direction"> For all inquiries please call us, or you may write to us here.</div>
+        <p id="name">Name</p>
+      <div>
+        <input id="first" type="text" name="first" placeholder="first">
+        <input id="last" type="text" name="last" placeholder="last">
+      </div>
+        <p id="email">Email<p>
+      <div>
+        <input id="mail" type="text" name="mail" placeholder="e-mail">
+      </div>
+      <div>
+         <textarea id="write"name="comment"></textarea>
+       </div>
+      <div>
+        <button type="button" onclick="alert('Thank You!')" id="butn">Submit</button>
+      </div>
+    </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
