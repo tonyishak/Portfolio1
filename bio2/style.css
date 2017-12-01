@@ -1,0 +1,24 @@
+#videosList {
+ max-width: 600px;
+  overflow: hidden;
+}
+.video {
+  height: 500px;
+  width: 750px;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+.video {
+  position: absolute;
+}
+#canvas{
+  border: 2px solid;
+  width: 200px;
+  height:300px;
+  color: red;
+}
+
+/*video::-webkit-media-controls {
+    display:none !important;
+}*/
